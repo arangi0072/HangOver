@@ -62,7 +62,7 @@ public class settings extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("android.intent.action.VIEW",
-                        Uri.parse("https://sechat.in/"));
+                        Uri.parse(""));
                 settings.this.startActivity(intent);
             }
         });
