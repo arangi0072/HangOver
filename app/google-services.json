@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "216140764228",
+    "firebase_url": "https://hangover-72-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hangover-72",
+    "storage_bucket": "hangover-72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216140764228:android:7c934eb9a58d8a395e9811",
+        "android_client_info": {
+          "package_name": "arpit.rangi.HangOver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216140764228-llm0l4mavri8u2sj8da4ipkehjl414f3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arpit.rangi.HangOver",
+            "certificate_hash": "808cf414a4aad617fc651f3859a7c5c618f0b9ae"
+          }
+        },
+        {
+          "client_id": "216140764228-o51r08k1aplh0om1pa09lg3mbgbidb5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBSoLPZ6sAHTkIRhMEeEbKY-XFkoq9liE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216140764228-o51r08k1aplh0om1pa09lg3mbgbidb5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
