@@ -62,7 +62,7 @@ public class settings extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("android.intent.action.VIEW",
-                        Uri.parse(""));
+                        Uri.parse("http://www.google.com"));
                 settings.this.startActivity(intent);
             }
         });

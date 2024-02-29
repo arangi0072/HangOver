@@ -86,7 +86,7 @@ public class SignupActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("android.intent.action.VIEW",
-                        Uri.parse(""));
+                        Uri.parse("http://www.google.com"));
                 SignupActivity.this.startActivity(intent);
             }
         });
