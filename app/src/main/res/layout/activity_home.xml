@@ -55,7 +55,7 @@
                     android:layout_marginStart="30dp"
                     android:fontFamily="sans-serif"
                     android:paddingRight="5dp"
-                    android:text="SecHat"
+                    android:text="HangOver"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textStyle="bold|italic"
