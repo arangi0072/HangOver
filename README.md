@@ -9,6 +9,7 @@ The project aims to develop a comprehensive platform facilitating real-time comm
 
 1. **User Authentication:**
    - Users can create accounts using email and password authentication or for hassle-free login via Google credentials or email and password.
+   - Users can delete their account also.
    
 2. **User Profile Setup:**
    - Upon registration, users can personalize their profiles by selecting a username, setting display names, adding profile descriptions, and uploading display pictures.
@@ -22,7 +23,6 @@ The project aims to develop a comprehensive platform facilitating real-time comm
    
 5. **Application Platform:**
    - HangOver is developed as an Android application, programmed in Java and XML, ensuring compatibility and accessibility across a wide range of devices.
-   - HangOver is developed by using Firebase as backend , database, storage, authentication. 
 
 **Conclusion:**
 The Remote Work Collaboration Platform, codenamed HangOver, is designed to enhance remote teamwork and collaboration by providing users with intuitive communication tools, streamlined team management features, and efficient file-sharing capabilities. By utilizing Firebase backend infrastructure and building on the Android platform, the project aims to deliver a seamless and user-friendly experience for individuals and teams engaging in remote collaboration activities.
