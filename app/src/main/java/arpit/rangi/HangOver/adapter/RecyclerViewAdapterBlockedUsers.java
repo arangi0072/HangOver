@@ -65,7 +65,7 @@ public class RecyclerViewAdapterBlockedUsers extends RecyclerView.Adapter<Recycl
                     holder.name.setText(name_user);
                 }else{
                     holder.userName.setText("@user");
-                    holder.name.setText("SecHat User");
+                    holder.name.setText("HangOver User");
                 }
             }
 

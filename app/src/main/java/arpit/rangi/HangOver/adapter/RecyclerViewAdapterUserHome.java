@@ -70,7 +70,7 @@ public class RecyclerViewAdapterUserHome extends RecyclerView.Adapter<RecyclerVi
                                 }
                                 holder.userName.setText("@user");
                                 if (data.get("time") != null) {
-                                    holder.name.setText("SecHat User");
+                                    holder.name.setText("HangOver User");
 
                                     SimpleDateFormat sfd = new SimpleDateFormat("h:mm a", Locale.US);
                                     holder.time.setText(sfd.format(new Date((Long) data.get("time"))));
@@ -268,7 +268,7 @@ public class RecyclerViewAdapterUserHome extends RecyclerView.Adapter<RecyclerVi
                                     intent.putExtra("uid", Objects.requireNonNull(data.get("receiver")).toString());
                                     intent.putExtra("token", "");
                                     intent.putExtra("username", "user");
-                                    intent.putExtra("name", "SecHat User");
+                                    intent.putExtra("name", "HangOver User");
                                     intent.putExtra("image", "false");
                                     intent.putExtra("about", "");
                                     intent.putExtra("unread", Objects.requireNonNull(data.get("unread")).toString());
@@ -302,7 +302,7 @@ public class RecyclerViewAdapterUserHome extends RecyclerView.Adapter<RecyclerVi
                         intent.putExtra("uid", Objects.requireNonNull(data.get("receiver")).toString());
                         intent.putExtra("token", "");
                         intent.putExtra("username", "user");
-                        intent.putExtra("name", "SecHat User");
+                        intent.putExtra("name", "HangOver User");
                         intent.putExtra("image", "false");
                         intent.putExtra("about", "");
                         intent.putExtra("unread", Objects.requireNonNull(data.get("unread")).toString());

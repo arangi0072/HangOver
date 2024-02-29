@@ -253,6 +253,7 @@ public class message extends AppCompatActivity {
         query.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                msgArrayList.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Msg msg;
                     Map<String, Object> data = (Map<String, Object>) snapshot.getValue();
@@ -314,8 +315,8 @@ public class message extends AppCompatActivity {
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
                 int position = viewHolder.getAdapterPosition();
-                recyclerViewAdapter.notifyItemChanged(position);
-                Msg item = recyclerViewAdapter.getItem(position);
+                adapter.notifyItemChanged(position);
+                Msg item = adapter.getItem(position);
                 reply = true;
                 replay_view.setVisibility(View.VISIBLE);
                 if (item.getMsgType().equals("image")){
@@ -1062,7 +1063,7 @@ public class message extends AppCompatActivity {
         }
     }
     private void loadMoreMessages() {
-        Query nextQuery = messagesRef.orderByChild("time").endAt(lastMessageKey).limitToLast(PAGE_SIZE + 1);
+        Query nextQuery = messagesRef.orderByChild("time").endAt(lastMessageKey).limitToLast(PAGE_SIZE + 5);
 //        PAGE_SIZE += 1;
         nextQuery.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

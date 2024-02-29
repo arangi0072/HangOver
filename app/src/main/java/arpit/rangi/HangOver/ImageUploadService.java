@@ -307,7 +307,7 @@ public class ImageUploadService extends AsyncTask<Object, Integer, Void> {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                 .setContentTitle("Image Upload")
                 .setContentText("Uploading image...")
-                .setSmallIcon(R.mipmap.ic_launcher_round)
+                .setSmallIcon(R.mipmap.ic_logo_round)
                 .setPriority(NotificationCompat.PRIORITY_LOW)
                 .setOngoing(true);
 
@@ -327,7 +327,7 @@ public class ImageUploadService extends AsyncTask<Object, Integer, Void> {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                 .setContentTitle("Image Upload")
                 .setContentText(contentText)
-                .setSmallIcon(R.mipmap.ic_launcher_round)
+                .setSmallIcon(R.mipmap.ic_logo_round)
                 .setPriority(NotificationCompat.PRIORITY_LOW)
                 .setOngoing(true);
 

@@ -139,21 +139,24 @@
                 android:id="@+id/replay_view"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
                 android:background="@drawable/border_popup"
                 android:backgroundTint="#FFE2B5"
                 android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/msg_text"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent">
 
                 <ImageButton
                     android:id="@+id/reply_close"
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#FFE2B5"
                     android:src="@drawable/baseline_close_24"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -162,6 +165,8 @@
                     android:id="@+id/reply_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="3dp"
                     android:maxHeight="40dp"
                     android:paddingStart="10dp"
                     android:text="TextView"
@@ -178,7 +183,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="3dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/border"
@@ -196,8 +200,7 @@
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/send_msg"
-                app:layout_constraintStart_toEndOf="@+id/attach"
-                app:layout_constraintTop_toBottomOf="@+id/replay_view" />
+                app:layout_constraintStart_toEndOf="@+id/attach" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/send_msg"

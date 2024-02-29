@@ -27,8 +27,8 @@
         android:theme="@style/Theme.HangOver"
         tools:targetApi="31">
         <activity
-            android:name=".settings"
-            android:exported="false"/>
+            android:name=".user_info"
+            android:exported="false" />
         <activity
             android:name=".privacy_settings"
             android:exported="false" />
@@ -36,16 +36,33 @@
             android:name=".blocked_users"
             android:exported="false" />
         <activity
+            android:name=".view_image"
+            android:exported="false" />
+        <activity
+            android:name=".message"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false"/>
+        <activity
+            android:name=".forgot_password"
+            android:exported="false" />
+        <activity
             android:name=".account_details"
             android:exported="false" />
         <activity
-            android:name=".home"
+            android:name=".settings"
             android:exported="false" />
+
+        <service android:name=".MyService" />
+        <service android:name=".TypingService" />
+
+        <activity
+            android:name=".home"
+            android:exported="false"
+            android:label="@string/title_activity_home" />
         <activity
             android:name=".userDetails"
-            android:exported="false" />
-        <activity
-            android:name=".forgot_password"
             android:exported="false" />
         <activity
             android:name=".userName"
