@@ -117,6 +117,8 @@ public class home extends AppCompatActivity {
     @Override
     public void onStart(){
         super.onStart();
+        Intent intent = new Intent(this, MyService.class);
+        startService(intent);
     }
 
 
